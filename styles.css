@@ -27,6 +27,15 @@ a {
   text-decoration: none;
 }
 
+p a {
+  color: #8A9093;
+  text-decoration: underline;
+}
+
+p a:visited {
+  color: #404040;
+}
+
 
 /* header */
 
@@ -327,6 +336,16 @@ header {
   font-size: 1rem;
   padding-top: 0.5rem;
 }
+
+.project-github a {
+  color: #8A9093;
+  text-decoration: underline;
+}
+
+.project-github a:visited {
+  color: #404040;
+}
+
 
 #overview, #conclusion {
   margin: 2rem 2.5rem 2rem 2.5rem;
